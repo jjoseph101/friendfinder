@@ -2,7 +2,7 @@
 
 var friendArray = [
 	{
-		"name":"Rocky",
+		"name":"Alpha",
 		"photo":"https://shechive.files.wordpress.com/2010/01/dork-is-cool-14.jpg",
 		"scores":[
 			"5",
@@ -14,6 +14,54 @@ var friendArray = [
 			"2",
 			"3",
 			"4",
+			"5"
+		]
+	},
+	{
+		"name":"Beta",
+		"photo":"https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/e15/11265891_941162385927026_1389453329_n.jpg",
+		"scores":[
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"5",
+			"4",
+			"3",
+			"2",
+			"1"
+		]
+	},
+	{
+		"name":"Gamma",
+		"photo":"http://www.onegoodshare.com/wp-content/uploads/miley-cyrus-funny-face.jpeg",
+		"scores":[
+			"1",
+			"3",
+			"5",
+			"2",
+			"4",
+			"4",
+			"5",
+			"3",
+			"1",
+			"5"
+		]
+	},
+	{
+		"name":"Zeta",
+		"photo":"https://shechive.files.wordpress.com/2010/01/dork-is-cool-14.jpg",
+		"scores":[
+			"2",
+			"4",
+			"4",
+			"2",
+			"2",
+			"1",
+			"3",
+			"3",
+			"1",
 			"5"
 		]
 	}

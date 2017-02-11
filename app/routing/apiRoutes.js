@@ -13,7 +13,8 @@ module.exports = function(app) {
 	app.post("/api/friends", function(req, res){
 
 		//compare submitted data to database
-
+		console.log("friendData array: " + friendData);
+		console.log("newly entered data (req.body): " + (req.body));
 
 		//add data to data array
 		friendData.push(req.body);
