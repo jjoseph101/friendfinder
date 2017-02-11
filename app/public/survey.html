@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reservation Page</title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="jumbotron">
+      <h1 class="text-left">Survey Questions</h1>
+      <hr>
+      <h2 class="text-left">About You</h2>
+      <br>
+      <div class="form-group">
+        <label for="reserve-name">Name (Required)</label>
+        <input type="text" class="form-control" id="friend-name">
+      </div>
+      <div class="form-group">
+        <label for="reserve-name">Link to Photo Image (Required)</label>
+        <input type="text" class="form-control" id="photoURL">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="q1">
+          <form>
+          <h1>Question 1</h1>
+               <fieldset>
+                  <legend>Your mind is always buzzing with unexplored ideas and plans.</legend>
+                  <p>
+                     <label>Select an Option</label>
+                     <select id = "q1ans">
+                       <option value = "1">1 (Strongly Disagree)</option>
+                       <option value = "2">2</option>
+                       <option value = "3">3</option>
+                       <option value = "4">4</option>
+                       <option value = "5">5 (Strongly Agree)</option>
+                       <option selected disabled hidden style='display: none' value=''></option>
+                     </select>
+                  </p>
+               </fieldset>
+          <br>
+          <h1>Question 2</h1>
+               <fieldset>
+                  <legend>Generally speaking, you rely more on your experience than your imagination.</legend>
+                  <p>
+                     <label>Select an Option</label>
+                     <select id = "q2ans">
+                       <option value = "1">1 (Strongly Disagree)</option>
+                       <option value = "2">2</option>
+                       <option value = "3">3</option>
+                       <option value = "4">4</option>
+                       <option value = "5">5 (Strongly Agree)</option>
+                       <option selected disabled hidden style='display: none' value=''></option>
+                     </select>
+                  </p>
+               </fieldset>
+          <br>
+          <h1>Question 3</h1>
+               <fieldset>
+                  <legend>You find it wasy to stay relaxed and focused even when there is some pressure.</legend>
+                  <p>
+                     <label>Select an Option</label>
+                     <select id = "q3ans">
+                       <option value = "1">1 (Strongly Disagree)</option>
+                       <option value = "2">2</option>
+                       <option value = "3">3</option>
+                       <option value = "4">4</option>
+                       <option value = "5">5 (Strongly Agree)</option>
+                       <option selected disabled hidden style='display: none' value=''></option>
+                     </select>
+                  </p>
+               </fieldset>
+          <br>
+          <h1>Question 4</h1>
+               <fieldset>
+                  <legend>You rarely do something just out of sheer curiosity.</legend>
+                  <p>
+                     <label>Select an Option</label>
+                     <select id = "q4ans">
+                       <option value = "1">1 (Strongly Disagree)</option>
+                       <option value = "2">2</option>
+                       <option value = "3">3</option>
+                       <option value = "4">4</option>
+                       <option value = "5">5 (Strongly Agree)</option>
+                       <option selected disabled hidden style='display: none' value=''></option>
+                     </select>
+                  </p>
+               </fieldset>
+          <br>
+          <h1>Question 5</h1>
+               <fieldset>
+                  <legend>People can rarely upset you.</legend>
+                  <p>
+                     <label>Select an Option</label>
+                     <select id = "q5ans">
+                       <option value = "1">1 (Strongly Disagree)</option>
+                       <option value = "2">2</option>
+                       <option value = "3">3</option>
+                       <option value = "4">4</option>
+                       <option value = "5">5 (Strongly Agree)</option>
+                       <option selected disabled hidden style='display: none' value=''></option>
+                     </select>
+                  </p>
+               </fieldset>
+          <br>
+          <h1>Question 6</h1>
+               <fieldset>
+                  <legend>It is often difficult for you to relate to other people's feelings.</legend>
+                  <p>
+                     <label>Select an Option</label>
+                     <select id = "q6ans">
+                       <option value = "1">1 (Strongly Disagree)</option>
+                       <option value = "2">2</option>
+                       <option value = "3">3</option>
+                       <option value = "4">4</option>
+                       <option value = "5">5 (Strongly Agree)</option>
+                       <option selected disabled hidden style='display: none' value=''></option>
+                     </select>
+                  </p>
+               </fieldset>
+          <br>
+          <h1>Question 7</h1>
+               <fieldset>
+                  <legend>In a discussion, truth should be more important than people's sensitivities.</legend>
+                  <p>
+                     <label>Select an Option</label>
+                     <select id = "q7ans">
+                       <option value = "1">1 (Strongly Disagree)</option>
+                       <option value = "2">2</option>
+                       <option value = "3">3</option>
+                       <option value = "4">4</option>
+                       <option value = "5">5 (Strongly Agree)</option>
+                       <option selected disabled hidden style='display: none' value=''></option>
+                     </select>
+                  </p>
+               </fieldset>
+          <br>
+          <h1>Question 8</h1>
+               <fieldset>
+                  <legend>You rarely get carried away by fantasies and ideas.</legend>
+                  <p>
+                     <label>Select an Option</label>
+                     <select id = "q8ans">
+                       <option value = "1">1 (Strongly Disagree)</option>
+                       <option value = "2">2</option>
+                       <option value = "3">3</option>
+                       <option value = "4">4</option>
+                       <option value = "5">5 (Strongly Agree)</option>
+                       <option selected disabled hidden style='display: none' value=''></option>
+                     </select>
+                  </p>
+               </fieldset>
+          <br>
+          <h1>Question 9</h1>
+               <fieldset>
+                  <legend>You think that everyone's views should be respected regardless of whether they are supported by facts or not.</legend>
+                  <p>
+                     <label>Select an Option</label>
+                     <select id = "q9ans">
+                       <option value = "1">1 (Strongly Disagree)</option>
+                       <option value = "2">2</option>
+                       <option value = "3">3</option>
+                       <option value = "4">4</option>
+                       <option value = "5">5 (Strongly Agree)</option>
+                       <option selected disabled hidden style='display: none' value=''></option>
+                     </select>
+                  </p>
+               </fieldset>
+          <br>
+          <h1>Question 10</h1>
+               <fieldset>
+                  <legend>You feel more energetic after spending time with a group of people.</legend>
+                  <p>
+                     <label>Select an Option</label>
+                     <select id = "q10ans">
+                       <option value = "1">1 (Strongly Disagree)</option>
+                       <option value = "2">2</option>
+                       <option value = "3">3</option>
+                       <option value = "4">4</option>
+                       <option value = "5">5 (Strongly Agree)</option>
+                       <option selected disabled hidden style='display: none' value=''></option>
+                     </select>
+                  </p>
+               </fieldset>
+          <br>
+          <a href="/api/friends" button type="submit" class="btn btn-primary submit">Submit</button></a>
+          </form>
+        </div>
+      </div>
+    </div>
+
+<br><br><br>
+    <footer class="footer">
+      <div class="container">
+        <p><a href="/api/friends">API Friends Link</a> | <a href="https://github.com/jjoseph101/friendfinder">GitHub Repo</a></p>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+
+<!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS SENT TO OUR SERVER -->
+<script type="text/javascript">
+
+    // In this code below we create the Front-end Javascript which "POSTS" our form data to our express server.
+    // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
+    // Our api recognizes the route (/api/tables)... and then runs the associated code (found in api-routes.js).
+    // In this case the associated code "saves" the data to the table-data.js file or waitinglist-data.js file
+
+    $(".submit").on("click", function(event) {
+      event.preventDefault();
+
+      // Here we grab the form elements
+      var newReservation = {
+        customerName: $("#reserve-name").val().trim(),
+        phoneNumber: $("#reserve-phone").val().trim(),
+        customerEmail: $("#reserve-email").val().trim(),
+        customerID: $("#reserve-unique-id").val().trim()
+      };
+
+      console.log(newReservation);
+
+      // This line is the magic. It"s very similar to the standard ajax function we used.
+      // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
+      // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
+      // depending on if a tables is available or not.
+
+      $.post("/api/tables", newReservation,
+        function(data) {
+
+          // If a table is available... tell user they are booked.
+          if (data) {
+            alert("Yay! You are officially booked!");
+          }
+
+          // If a table is available... tell user they on the waiting list.
+          else {
+            alert("Sorry you are on the wait list");
+          }
+
+          // Clear the form when submitting
+          $("#reserve-name").val("");
+          $("#reserve-phone").val("");
+          $("#reserve-email").val("");
+          $("#reserve-unique-id").val("");
+
+        });
+
+    });
+
+</script>
